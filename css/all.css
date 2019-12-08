@@ -382,6 +382,10 @@ a:hover{text-decoration:underline;}
 	display: block;
 	position: relative;
 }
+.boxes .box div.abc {
+	display: block;
+	position: relative;
+}
 .boxes .box img {
 	max-width:100%;
 	height: auto;
