@@ -4,17 +4,19 @@ $(document).ready(function() {
     $('input[placeholder], textarea[placeholder]').placeholder();
      $('.slider').bxSlider({
         mode:'fade',
-        speed:1000,
-        touchEnabled: false,
+        //speed:2000,
+        //touchEnabled: false,
         controls: false,
-        auto: true
+		//captions:true,
+		//slideWidth: 800,
+        //auto: true
     });
      $(".item-list li").mouseenter(function(){  
-        $(this).find($('.item-list .hover')).stop(true, true).fadeIn(600);
+        //$(this).find($('.item-list .hover')).stop(true, true).fadeIn(600);
         return false;
      });
       $('.item-list li').mouseleave(function(){  
-        $(this).find($('.item-list .hover')).stop(true, true).fadeOut(400);
+        //$(this).find($('.item-list .hover')).stop(true, true).fadeOut(400);
         return false;
      });
       jQuery(document).on('click', ".menu_trigger", function (e) {
