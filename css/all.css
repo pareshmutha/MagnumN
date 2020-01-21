@@ -1000,3 +1000,33 @@ div.selector select {
 		background-size:31px 31px;
 	}
 }
+.zui-table {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+	color:#6e6e6e;
+	margin: 0 auto;
+	margin-bottom:20px;
+}
+.zui-table thead th {
+    background-color: #011515;
+    border: solid 1px #DDEEEE;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #c52727;
+	color:#fff
+}
+.zui-table tbody td {
+    border: solid 1px #DDEEEE;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.reports_title{
+	padding: 60px;
+    text-align: center;
+	padding-bottom: 20px;
+}
+.reports_desc{
+	padding-bottom: 45px;
+}
