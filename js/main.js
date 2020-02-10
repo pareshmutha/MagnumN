@@ -11,6 +11,18 @@ $(document).ready(function() {
 		//slideWidth: 800,
         //auto: true
     });
+	  $(".moreinfo").multiTextToggleCollapse({
+        line:1
+    });
+     $(".moreinfo1").multiTextToggleCollapse({
+        line:1
+    });
+     $(".moreinfo2").multiTextToggleCollapse({
+        line:1
+    });
+     $(".moreinfo3").multiTextToggleCollapse({
+        line:1
+    });
      $(".item-list li").mouseenter(function(){  
         //$(this).find($('.item-list .hover')).stop(true, true).fadeIn(600);
         return false;
