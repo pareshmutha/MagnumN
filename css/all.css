@@ -205,7 +205,7 @@ body{
 	color:#6e6e6e;
 	font:18px Arial, Helvetica, sans-serif;
 }
-img{border-style:none; vertical-align: top;}
+img{border-style:none; vertical-align: top;width:100%;}
 a{text-decoration:none; color:#6e6e6e;}
 a:hover{text-decoration:underline;}
 #wrapper{
@@ -218,7 +218,6 @@ a:hover{text-decoration:underline;}
     display:table-row;
 }
 #header {
-	max-width: 1170px;
 	margin: 0 auto;
 	padding: 50px 20px 45px;
 	position:relative;
