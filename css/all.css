@@ -305,13 +305,6 @@ a:hover{text-decoration:underline;}
 	margin: -5px 0 40px;
 }
 .bg {
-	position: absolute;
-	//background: url(../images/transparent.png);
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 100;
 }
 .product-info{
 	text-align: center;
@@ -385,6 +378,7 @@ a:hover{text-decoration:underline;}
 .boxes .box a {
 	display: block;
 	position: relative;
+	color:blue;
 }
 .boxes .box div.abc {
 	display: block;
